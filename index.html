@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghazaleh - Fine Dining Experience</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png.jpg">
+    
+</head><meta name="viewport" content>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-ghazaleh-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <div class="brand-container">
+                    <div class="brand-icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-name">Ghazaleh</span>
+                        <span class="brand-subtitle">Fine Dining</span>
+                    </div>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <div class="hero-content">
+                            <div class="hero-ornament mb-4">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <h1 class="hero-title mb-4">Welcome to Ghazaleh</h1>
+                            <p class="hero-subtitle mb-5">An exquisite culinary journey inspired by traditional elegance and modern sophistication</p>
+                            <div class="hero-buttons">
+                                <a href="#menu" class="btn btn-ghazaleh-gold btn-lg me-3">
+                                    <i class="bi bi-book me-2"></i>View Menu
+                                </a>
+                                <a href="#order" class="btn btn-outline-light btn-lg">
+                                    <i class="bi bi-bag me-2"></i>Order Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <div class="section-header">
+                        <div class="section-ornament">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="section-title">Our Exquisite Menu</h2>
+                        <p class="section-subtitle">Carefully crafted dishes that blend tradition with innovation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Categories -->
+            <div class="menu-categories mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <ul class="nav nav-pills menu-nav" id="menuTabs">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#appetizers">
+                                    <i class="bi bi-cup-hot me-2"></i>Appetizers
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#mains">
+                                    <i class="bi bi-award me-2"></i>Main Courses
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#beverages">
+                                    <i class="bi bi-cup-straw me-2"></i>Beverages
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#desserts">
+                                    <i class="bi bi-heart me-2"></i>Desserts
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="tab-content" id="menuContent">
+                <!-- Appetizers -->
+                <div class="tab-pane fade show active" id="appetizers">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Blossom Garden Salad
+</h5>
+<div class="menu-item-card">
+    <img src="salad4.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$12.99</span>
+                                </div>
+                                <p class="menu-item-description">Mixed baby greens, edible rose petals, citrus vinaigrette, and toasted seeds
+
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag vegetarian">Vegetarian</span>
+                                    <span class="tag gluten-free">Gluten Free</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Velvet Mantu Bites
+
+</h5>
+<div class="menu-item-card">
+    <img src="salad7.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$14.99</span>
+                                </div>
+                                <p class="menu-item-description">Velvet Mantu Bites
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag vegan">Vegan</span>
+                                    <span class="tag popular">Popular</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Silk Grape Leaves
+
+</h5>
+<div class="menu-item-card">
+    <img src="dolma5.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$13.99</span>
+                                </div>
+                                <p class="menu-item-description">Stuffed vine leaves with herbed rice, sumac, and a hint of rosewater drizzle
+
+
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag signature">Signature</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name"> Yogurt Harmony Bowl
+</h5>
+<div class="menu-item-card">
+    <img src="mast3.jpg" alt="" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$15.99</span>
+                                </div>
+                                <p class="menu-item-description"> Chilled strained yogurt, Persian cucumber pearls, mint oil, and crispy naan shards
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag seasonal">Seasonal</span>
+                                    <span class="tag popular">Available</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Courses -->
+                <div class="tab-pane fade" id="mains">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item-card featured">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name"> Royal Kabuli Lamb Pilaf
+</h5>
+<div class="menu-item-card">
+    <img src="khabli.jpg" alt="Saffron Ice Cream" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$28.99</span>
+                                </div>
+                                <p class="menu-item-description"> Saffron basmati rice with slow-cooked lamb, caramelized carrots, golden raisins, and roasted almonds
+
+
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag signature">Chef's Special</span>
+                                    <span class="tag premium">Premium</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Aubergine Jewel Dolma</h5>
+                                    <div class="menu-item-card">
+    <img src="dolma 3.jpg" alt="Saffron Ice Cream" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$24.99</span>
+                                </div>
+                                <p class="menu-item-description">Oven-baked eggplant filled with walnut-cream paste, served with pomegranate molasses glaze
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag traditional">Traditional</span>
+                                    <span class="tag popular">Popular</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Rosemary Butter Steak
+</h5>
+<div class="menu-item-card">
+    <img src="mantu.jpg" alt="Saffron Ice Cream" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$22.99</span>
+                                </div>
+                                <p class="menu-item-description">Grilled filet mignon finished with rosemary-garlic butter, served with truffle mashed potatoes and seasonal vegetables
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag traditional">Traditional</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Sunrise Vegetable Tagine
+</h5>
+<div class="menu-item-card">
+    <img src="tiny.jpg" alt="Saffron Ice Cream" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$21.99</span>
+                                </div>
+                                <p class="menu-item-description">Sunrise Vegetable Tagine
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag gluten-free">Gluten Free</span>
+                                    <span class="tag popular">UNAvailable</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages -->
+                <div class="tab-pane fade" id="beverages">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name"> Golden Chamomile Breeze
+                                        <div class="menu-item-card">
+    <img src="bereavge.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+</h5>
+                                    <span class="menu-item-price">$6.99</span>
+                                </div>
+                                <p class="menu-item-description">Chilled chamomile infusion with honey crystals, lemon zest, and rose ice cubes
+
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag signature">Signature</span>
+                                    <span class="tag hot">drink</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Pomegranate Mint Mist
+                                        <div class="menu-item-card">
+    <img src="anar.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+</h5>
+                                    <span class="menu-item-price">$5.99</span>
+                                </div>
+                                <p class="menu-item-description">Pomegranate Mint Mist
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag cold">Cold</span>
+                                    <span class="tag refreshing">Refreshing</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Rose & Jasmine Dream Latte
+                                    <div class="menu-item-card">
+    <img src="babohahh.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+
+</h5>
+                                    <span class="menu-item-price">$4.99</span>
+                                </div>
+                                <p class="menu-item-description"> Steamed almond milk, rose water, jasmine tea essence, finished with dried petals
+
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag traditional">Traditional</span>
+                                    <span class="tag cold">Cold</span>
+                                    <span class="tag popular">UNAvailable</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Turkish Coffee</h5>
+                                    <div class="menu-item-card">
+    <img src="thrilik.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$7.99</span>
+                                </div>
+                                <p class="menu-item-description">Authentic Turkish coffee served with Turkish delight</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag premium">Premium</span>
+                                    <span class="tag hot">Hot</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="tab-pane fade" id="desserts">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Baklava Royale</h5>
+                                    <div class="menu-item-card">
+    <img src="dolma.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$8.99</span>
+                                </div>
+                                <p class="menu-item-description">Layers of phyllo with pistachios, walnuts, and honey syrup</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag signature">Signature</span>
+                                    <span class="tag sweet">Sweet</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Saffron Ice Cream</h5>
+                                    <div class="menu-item-card">
+    <img src="bastain.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$6.99</span>
+                                </div>
+                                <p class="menu-item-description">Homemade saffron ice cream with pistachios and rose petals</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag homemade">Homemade</span>
+                                    <span class="tag cold">Cold</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name">Date & Walnut Velvet Cheesecake
+                                        <div class="menu-item-card">
+    <img src="cheas kake.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+</h5>
+                                    <span class="menu-item-price">$7.99</span>
+                                </div>
+                                <p class="menu-item-description"> Creamy cheesecake over a base of crushed walnuts and Medjool dates, with cardamom cream
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag romantic">Romantic</span>
+                                    <span class="tag popular">Popular</span>
+                                    <span class="tag popular">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-item-card">
+                                <div class="menu-item-header">
+                                    <h5 class="menu-item-name"> Jasmine Cloud Cake
+</h5>
+<div class="menu-item-card">
+    <img src="ghjh.jpg" alt="Rosemary Butter Steak" class="menu-item-photo">
+    <!-- ...existing code for this menu card... -->
+</div>
+                                    <span class="menu-item-price">$5.99</span>
+                                </div>
+                                <p class="menu-item-description">Airy sponge infused with jasmine essence, glazed with white chocolate and edible silver leaf
+</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag traditional">Traditional</span>
+                                    <span class="tag refreshing">Refreshing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="py-5 bg-ghazaleh-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="order-container">
+                        <div class="section-header text-center mb-5">
+                            <div class="section-ornament">
+                                <i class="bi bi-bag-heart-fill"></i>
+                            </div>
+                            <h2 class="section-title">Place Your Order</h2>
+                            <p class="section-subtitle">Elegant, soulful cuisine — now at your doorstep</p>
+                        </div>
+
+                        <form action="#" method="post" class="order-form">
+                            <div class="row g-4">
+                                <!-- Customer Information -->
+                                <div class="col-12">
+                                    <div class="form-section">
+                                        <h4 class="form-section-title">
+                                            <i class="bi bi-person-circle me-2"></i>
+                                            Customer Information
+                                        </h4>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="firstName" class="form-label">First Name</label>
+                                                <input type="text" class="form-control" id="firstName" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="lastName" class="form-label">Last Name</label>
+                                                <input type="text" class="form-control" id="lastName" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="email" class="form-label">Email Address</label>
+                                                <input type="email" class="form-control" id="email" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="phone" class="form-label">Phone Number</label>
+                                                <input type="tel" class="form-control" id="phone" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Delivery Information -->
+                                <div class="col-12">
+                                    <div class="form-section">
+                                        <h4 class="form-section-title">
+                                            <i class="bi bi-geo-alt-fill me-2"></i>
+                                            Delivery Information
+                                        </h4>
+                                        <div class="row g-3">
+                                            <div class="col-12">
+                                                <label for="address" class="form-label">Delivery Address</label>
+                                                <input type="text" class="form-control" id="address" required>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="city" class="form-label">City</label>
+                                                <input type="text" class="form-control" id="city" required>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="state" class="form-label">State</label>
+                                                <input type="text" class="form-control" id="state" required>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="zip" class="form-label">ZIP Code</label>
+                                                <input type="text" class="form-control" id="zip" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Order Selection -->
+                                <div class="col-12">
+                                    <div class="form-section">
+                                        <h4 class="form-section-title">
+                                            <i class="bi bi-basket-fill me-2"></i>
+                                            Your Order
+                                        </h4>
+                                        <div class="order-items">
+                                            <div class="row g-3">
+                                                <!-- Appetizers -->
+                                                <div class="col-md-6">
+                                                    <div class="order-category">
+                                                        <h6 class="order-category-title">Appetizers</h6>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="herb-frittata">
+                                                                <label class="form-check-label" for="herb-frittata">
+                                                                Blossom Garden Salad- $12.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="saffron-hummus">
+                                                                <label class="form-check-label" for="saffron-hummus">
+                                                                    Velvet Mantu Bites - $14.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Main Courses -->
+                                                <div class="col-md-6">
+                                                    <div class="order-category">
+                                                        <h6 class="order-category-title">Main Courses</h6>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="signature-kebab">
+                                                                <label class="form-check-label" for="signature-kebab">
+                                                                    Royal Kabuli Lamb Pilaf - $28.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="fesenjan">
+                                                                <label class="form-check-label" for="fesenjan">
+                                                                    Rosemary Butter Steak - $24.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Beverages -->
+                                                <div class="col-md-6">
+                                                    <div class="order-category">
+                                                        <h6 class="order-category-title">Beverages</h6>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="saffron-tea">
+                                                                <label class="form-check-label" for="saffron-tea">
+                                                                    Golden Chamomile Breeze- $6.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="mint-refresher">
+                                                                <label class="form-check-label" for="mint-refresher">
+                                                                    Pomegranate Mint Mist - $5.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Desserts -->
+                                                <div class="col-md-6">
+                                                    <div class="order-category">
+                                                        <h6 class="order-category-title">Desserts</h6>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="baklava">
+                                                                <label class="form-check-label" for="baklava">
+                                                                    Baklava Royale - $8.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                        <div class="order-item">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="saffron-ice-cream">
+                                                                <label class="form-check-label" for="saffron-ice-cream">
+                                                                    Saffron Ice Cream - $6.99
+                                                                </label>
+                                                            </div>
+                                                            <input type="number" class="form-control form-control-sm quantity-input" placeholder="Qty" min="1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Special Instructions -->
+                                <div class="col-12">
+                                    <div class="form-section">
+                                        <h4 class="form-section-title">
+                                            <i class="bi bi-chat-dots me-2"></i>
+                                            Special Instructions
+                                        </h4>
+                                        <textarea class="form-control" rows="3" placeholder="Any special requests or dietary restrictions..."></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Order Summary -->
+                                <div class="col-12">
+                                    <div class="order-summary">
+                                        <h5 class="mb-3">Order Summary</h5>
+                                        <div class="summary-row">
+                                            <span>Subtotal:</span>
+                                            <span id="subtotal">$0.00</span>
+                                        </div>
+                                        <div class="summary-row">
+                                            <span>Delivery Fee:</span>
+                                            <span>$4.99</span>
+                                        </div>
+                                        <div class="summary-row">
+                                            <span>Tax:</span>
+                                            <span id="tax">$0.00</span>
+                                        </div>
+                                        <div class="summary-row total">
+                                            <span>Total:</span>
+                                            <span id="total">$4.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-ghazaleh-gold btn-lg px-5 py-3">
+                                        <i class="bi bi-credit-card me-2"></i>
+                                        Place Order & Pay
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-image-container">
+                        <div class="about-image"></div>
+                        <div class="about-ornament">
+                            <i class="bi bi-gem"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header">
+                            <div class="section-ornament">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
+                            <h2 class="section-title">About Ghazaleh</h2>
+                            <p class="section-subtitle">A story of passion, tradition, and culinary excellence</p>
+                        </div>
+                        
+                        <p class="lead mb-4">
+                            Named after the Arbic word for "gazelle" - symbolizing grace, beauty, and elegance - 
+                               Ghazaleh Restaurant is a space where elegance meets warmth — a place inspired by nature, seasons, and the quiet beauty of light in darkness.
+                        </p>
+                        
+                        <p class="mb-4">
+                              Our story began with a simple yet meaningful vision: to craft dishes that awaken the senses and connect people through flavor, care, and creativity. Every recipe is prepared with intention, using fresh ingredients and time-honored methods.
+                        </p>
+                        
+                        <p class="mb-4">
+                          From golden saffron touches to delicate herbal infusions, every item on our menu is designed to evoke feeling — not just taste. Here, food is an experience: a moment of reflection, beauty, and belonging.
+
+                        </p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="bi bi-award-fill"></i>
+                                <span>Where food reflects soul</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-heart-fill"></i>
+                                <span>Made with Love & Tradition</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-gem"></i>
+                                <span>Premium Quality Ingredients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Footer Section -->
+    <footer id="contact" class="py-5 bg-ghazaleh-primary text-white">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-4">
+                        <div class="brand-container">
+                            <div class="brand-icon">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <div class="brand-text">
+                                <span class="brand-name">Ghazaleh</span>
+                                <span class="brand-subtitle">Fine Dining</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mb-4">
+                        A taste of elegance in every moment
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h5 class="footer-title mb-4">Contact Information</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <p>456 Light Reflection Avenue<br>Prague, NY 11223<br>Culinary District, CD 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+1 (555) 123-GHAZ</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>hello@ghazaleh-restaurant.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h5 class="footer-title mb-4">Opening Hours</h5>
+                    <div class="opening-hours">
+                        <div class="hours-item">
+                            <span class="day">Monday - Thursday</span>
+                            <span class="time">11:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Friday - Saturday</span>
+                            <span class="time">11:00 AM - 11:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Sunday</span>
+                            <span class="time">12:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="newsletter mt-4">
+                        <h6 class="mb-3">Stay Updated</h6>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-ghazaleh-gold" type="button">
+                                <i class="bi bi-envelope"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-5 border-ghazaleh-gold">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Ghazaleh Restaurant. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Crafted with <i class="bi bi-heart-fill text-ghazaleh-gold"></i>  soulful cuisin</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
